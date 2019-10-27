@@ -54,7 +54,7 @@ background-color:#007bff!important
  width: 50%;
  line-height: 1.5;
 }
-.description button{
+.description a{
  border:1px  solid #a970ff;
  background:#a970ff;
  color:#fff;

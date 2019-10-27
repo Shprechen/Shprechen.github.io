@@ -11,3 +11,9 @@ $(".navbar a").click(function(){
   },1000)
   
  });
+$(".description a").click(function(){
+  $("body,html").animate({
+   scrollTop:$("#" + $(this).data('value')).offset().top
+  },1000)
+  
+ });

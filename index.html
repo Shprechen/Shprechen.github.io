@@ -11,14 +11,12 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-
     </head> 
 
     <body>
       <!-- navbar -->  
         <nav class="navbar navbar-expand-lg fixed-top ">  
-            <a class="navbar-brand" href="https://shprechen.github.io/">Андрейцев О.М. ИДМ-19-01</a>
+            <a class="navbar-brand" data-value="header" href="#">Андрейцев О.М. ИДМ-19-01</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,14 +38,14 @@
             </div>
         </nav>
 
-        <header class="header">
+        <header id="header" class="header">
             <div class="overlay"></div>
             <div class="container">
                 <div class="description">
-                    <h1>    Здравствуйте, добро пожаловать на сайт с отчетами!
+                    <h1>    Здравствуйте, добро пожаловать на сайт с отчетами!</h1>
                     <p>    тут представлены отчеты по лабораторным работам по курсу Интернет-технологии.
                     </p>   
-                    <button class="btn btn-outline-secondary btn-lg">Просмотреть отчеты</button>   </h1>  
+                    <a data-value="LR1" href="#" class="btn btn btn-outline-secondary btn-lg" role="button" aria-pressed="true">Просмотреть отчеты</a>
                 </div>
             </div>
         </header>
