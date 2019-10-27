@@ -55,9 +55,82 @@ background-color:#007bff!important
  line-height: 1.5;
 }
 .description button{
- border:1px  solid ##a970ff;
+ border:1px  solid #a970ff;
  background:#a970ff;
  color:#fff;
 }
 
 
+.DescLR{
+ margin: 2em 0;
+ padding: 1em;
+ position: relative;
+}
+.DescLR h1{
+ color:#a970ff;
+ margin: 1em;
+}
+.DescLR img{
+ height: 100%;
+    width: 100%;
+}
+.DescLR span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.DescLR .desc{
+ padding: 2em;
+ border-left:4px solid #a970ff;
+}
+.DescLR .desc h3{
+ color: #a970ff;
+}
+.DescLR .desc p{
+ line-height:2;
+ color:#888;
+}
+
+.carousel-indicators li {
+    background: #ccc;
+}
+
+.carousel-indicators .active {
+    background: #666;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-control-prev-icon {
+       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #a970ff; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #a970ff;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
