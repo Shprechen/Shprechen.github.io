@@ -203,6 +203,7 @@
         </div>
 
             <!-- Contact form -->
+                                <form onsubmit="SendMail(this.email.value, this.user.value, this.tel.value); return false">
         <div class="contact-form" id="SendEmail">
          <div class="container">
           <form>
@@ -218,8 +219,8 @@
                  <input type="email" class="form-control form-control-lg" placeholder="olandreyts@rambler.ru" name="email">
                </div>
                <div class="form-group">
+                   
                  <textarea class="form-control form-control-lg">
-
                  </textarea>
                </div>
                <input type="submit" class="btn btn-secondary btn-block" value="Отправить" name="">
@@ -228,6 +229,7 @@
           </form>
          </div>
         </div>
+                                </form>
 
         <!-- Javascript -->
 
